@@ -12,7 +12,7 @@ import tensorflow as tf
 batch_size = 64
 epochs = 100
 latent_dim = 256
-num_samples = 50000
+num_samples = 200000
 
 # Reading text file
 lines = open(r'ita.txt', encoding='utf-8').read().split('\n')
